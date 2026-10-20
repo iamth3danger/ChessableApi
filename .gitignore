@@ -1,0 +1,51 @@
+# ---- Secrets ----
+.env
+*.env
+!.env.example
+
+# ---- Maven build output ----
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+dependency-reduced-pom.xml
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+buildNumber.properties
+
+# ---- Compiled output ----
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# ---- IDEs ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+bin/
+nbproject/private/
+.apt_generated/
+
+# ---- Logs & temp ----
+*.log
+logs/
+*.tmp
+*.swp
+*~
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
